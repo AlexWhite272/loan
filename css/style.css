@@ -1,0 +1,714 @@
+.logo {
+
+	margin: 0px 0px 0px 200px;
+}
+
+.navHr {
+	border: 1px solid #D0D0D0;
+}
+
+.infoNav {
+	position: absolute;
+	max-width: 735px;
+	margin: 0px 0px 0px 200px;
+}
+
+.infoNav h1 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 38px;
+	color: #3064CA;
+}
+
+.infoNav p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #7A7A7A;
+}
+
+.offersWeek {
+
+	position: absolute;
+	width: 1520px;
+	left: 0px;
+	top: 250px;
+	background: linear-gradient(166.17deg, #0B5EFF 6.61%, #3064CA 90.12%);
+}
+
+.offersWeekSlider{
+	display: inline-flex;
+	align-items: center;
+	margin-left:150px;
+}
+
+.offersWeek h2 {
+	padding: 29px 0px 0px 200px; 
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 35px;
+	color: #FFFFFF;
+
+}
+.back{
+	margin-right: 15px;
+}
+.next, .back {
+	width: 100px;
+	background-color: white;
+	border: #000000;
+	width: 50px;
+	height: 341px;
+	border-radius: 5px;
+	margin-bottom: 45px;
+	
+}
+
+.back:hover{
+	transition: 0.5s;
+	background-color: rgba(128, 128, 128, 0.61);
+}
+.next:hover{
+	transition: 0.5s;
+	background-color: rgba(128, 128, 128, 0.61);
+}
+
+
+.monezaSection{
+	width: 1179px;
+	display: inline-flex;
+	
+	padding-left: 10px;
+	position: relative;
+	left: 0;
+	transition: 2s;
+	
+}
+
+.moneza {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 47px;
+	
+	width: 1179px;
+	overflow: hidden;
+	
+	
+	
+}
+.monezaBlock {
+	display: inline;
+	width: 263px;
+	height: 341px;
+	border: 1px solid #D0D0D0;
+	align-self: center;
+	margin: 0px 30px 0px 0px;
+	background-color: #FFFF;
+	border-radius: 5px;
+	
+}
+
+/*стили в monezaBlock*/
+.monezaBlock img {
+	width: 114px;
+	height: 37px;
+	margin: 24px 0px 0px 35px;
+
+}
+
+.loan {
+	padding: 0px 0px 0px 22.5px;
+	width: 241px;
+	height: 28px;
+	background: #FDFF8B;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px
+	
+}
+
+.loan p {
+	padding: 0px 0px 0px 7px;
+}
+
+
+.price {
+	width: 169px;
+	height: 24px;
+	margin: 17px 0px 0px 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+
+.bid {
+	width: 148px;
+	height: 25px;
+	margin: 17px 0px 0px 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #878787;
+}
+
+.deadline {
+	margin: 7px 0px 0px 30px;
+	width: 158px;
+	height: 27px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #878787;
+}
+
+.deadline2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 7px 0px 0px 30px;
+	width: 148px;
+	color: #000000;
+
+}
+
+.bid2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+	padding: 0px 0px 0px 15px;
+}
+
+.greenButton {
+	width: 219px;
+	height: 49px;
+	background: #0DD149;
+	border-radius: 5px;
+	margin: 22px 36px 0px 24px; 
+	color: white;
+}
+
+/*table*/
+.tableContent {	
+	position: absolute;
+	left: 185px;
+	top: 761px;
+	width: 1175px;
+	height: 600px;
+	background: #FFFFFF;
+
+	/* Тень карточек */
+	box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	border-collapse: collapse;
+	margin-top: 50px;
+
+	
+}
+
+.tdNav {
+	width: 235px;
+	height: 125px;
+	text-align: center;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+
+.tdBody {
+		height: 125px;
+	text-align: center;
+}
+
+.tdBodyProcent {
+		height: 125px;
+	text-align: center;
+}
+
+.tdBodyDate {
+		height: 125px;
+	text-align: center;
+
+}
+
+.tdBodyPrice {
+		height: 125px;
+	text-align: center;
+
+}
+
+
+
+.tdNav {
+	border-right: 1px solid #D0D0D0;
+	height: 50px;
+}
+
+.tdBodyPrice, .tdBodyProcent {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.tdBodyDate {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.tdNav p{
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+/*Отзывы*/
+.tableReviews {
+	position: absolute;
+	width: 1176px;
+	height: 413px;
+	left: 185px;
+	top: 1433px;
+	background: #FFFFFF;
+	border-collapse: collapse;
+	box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+.reviewsTd {
+	border-right: 1px solid #D0D0D0;
+}
+
+
+
+.tableReviewsNav {
+	border-bottom: 1px solid #D0D0D0;
+	height: 50px;
+	height: 35px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 35px;
+	color: #000000;
+}
+
+.tableReviewsNav h2 {
+	padding: 0px 0px 0px 30px;
+}
+
+.blockInfo {
+	display: flex;
+	padding: 15px 0px 0px 10px;
+
+}
+
+.avatar{
+	border: 0px;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	text-align: left;
+
+}
+.info{
+	display: inline;
+	width: 80px;
+	height: 19px;
+
+	/* identical to box height */
+	color: #2C63CF;
+}
+
+.star {
+	display: flex;
+	height: 20px;
+	width: 25px;
+	margin: 0px 0px 0px 15px;
+}
+
+.name {
+	width: 125px;
+	height: 25px;
+	margin: 0px 0px 0px 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 19px;
+
+}
+
+.star img{
+	padding: 0px 0px 0px 5px;
+}
+
+.blockTxtH3 {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.blockTxtBody{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.blockTxtFooter {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 19px;
+
+/* identical to box height */
+
+color: #545252;
+}
+
+.blockTxt {
+	text-align: left;
+	padding: 0px 15px 0px 15px;
+}
+
+/**/
+
+.monezaT {
+	position: absolute;
+width: 263px;
+height: 341px;
+left: 200px;
+top: 1942px;
+background: #FFFFFF;
+
+/* Тень карточек */
+box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+display: inline-flex;
+}
+
+.add {
+position: absolute;
+display: flex;
+justify-content: center;
+width: 1153px;
+height: 62px;
+left: 200px;
+top: 2302px;
+
+background: #FFFFFF;
+
+/* Тень карточек */
+box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.addTxt{
+	vertical-align: center;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+
+/* identical to box height */
+
+	color: #000000;
+}
+
+
+.krest{
+	position: absolute;
+	top: 24px;
+	left: 450px;
+	width: 14px;
+	height: 14px;
+	border-collapse: collapse;
+}
+
+.krestTr {
+	border-top: 3px solid #0DD149;
+}
+
+.krestTd {
+	border-right: 3px solid #0DD149;
+}
+/**/
+.monezaM {
+	position: absolute;
+width: 263px;
+height: 341px;
+left: 200px;
+top: 2470px;
+background: #FFFFFF;
+
+/* Тень карточек */
+box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+display: inline-flex;
+}
+
+.orangeButton {
+	width: 219px;
+	height: 49px;
+	background: #FFD057; 
+	border-radius: 5px;
+	margin: 22px 36px 0px 24px; 
+	color: white;
+}
+
+.loanMonth {
+	padding: 0px 0px 0px 22.5px;
+	width: 241px;
+	height: 28px;
+	background: #E4E4E4;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px
+	
+}
+
+.loanMonth p {
+	padding: 0px 0px 0px 7px;
+}
+
+.offerMonth {
+	position: absolute;
+width: 298px;
+height: 35px;
+left: 200px;
+top: 2370px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 35px;
+
+color: #000000;
+}
+
+/**/
+
+.creditter {
+	position: absolute;
+	width: 1153px;
+	height: 222px;
+	left: 200px;
+	top: 2855px;
+	display: inline-flex;
+}
+
+.creditterBlock {
+	display: inline;
+	border: 1px solid #CBCBCB;
+	padding: 10px 10px 10px 10px;
+	width: 1153px;
+}
+
+.creditterh3 {
+	width: 250px;
+height: 30px;
+	font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+
+color: #575757;
+}
+
+.creditterTxt {
+	width: 261px;
+height: 149px;
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #575757;
+}
+
+/**/
+
+.obch {
+	position: absolute;
+width: 1146px;
+height: 31px;
+left: 200px;
+top: 3086px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+
+color: #575757;
+
+
+}
+
+.treb {
+	position: absolute;
+width: 1146px;
+height: 31px;
+left: 200px;
+top: 3145px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+
+color: #575757;
+
+}
+
+.trebTxt {
+	position: absolute;
+width: 1146px;
+height: 47px;
+left: 200px;
+top: 3185px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #575757;
+
+
+}
+
+.usl{
+	position: absolute;
+width: 1146px;
+height: 31px;
+left: 200px;
+top: 3204px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 33px;
+
+color: #575757;
+
+}
+
+.uslTxt {
+position: absolute;
+width: 1146px;
+height: 47px;
+left: 200px;
+top: 3260px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #575757;
+}
+
+/**/
+.footHr {
+	margin: 3275px 0px 0px 0px;
+	border: 1px solid #575757;
+
+}
+footer {
+	position: absolute;
+	left: 200px;
+	top: 3350px;
+
+}
+
+.foot1 {
+width: 1146px;
+height: 45px;
+position: absolute;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #575757;
+
+}
+
+.foot2 {
+	position: absolute;
+	top: 30px;
+	width: 1146px;
+height: 45px;
+padding: 0px 0px 0px 0px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #575757;
+}
